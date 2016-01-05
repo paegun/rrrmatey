@@ -1,0 +1,8 @@
+require 'redis'
+require 'riak'
+require_relative 'rrrmatey/type_coercion.rb'
+require_relative 'rrrmatey/errors.rb'
+require_relative 'rrrmatey/retryable.rb'
+require_relative 'rrrmatey/discrete_result.rb'
+require_relative 'rrrmatey/string_model/string_model.rb'
+require_relative 'rrrmatey/crud_controller.rb'
