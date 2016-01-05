@@ -26,9 +26,9 @@ EOF
     s.add_dependency('riak-client', '~> 2.2')
     s.add_dependency('redis', '~> 3.2')
     s.add_dependency('json', '~> 1.7')
-    s.add_dependency('xml-simple')
+    s.add_dependency('xml-simple', '~> 1.1')
 
-    s.files         = Dir.glob("lib/**/*") + %w(CHANGELOG.md LICENSE README.md Rakefile)
+    s.files         = Dir.glob("lib/**/*") + %w(RELEASE_NOTES.md LICENSE.md README.md Rakefile)
     s.test_files    = Dir.glob("spec/**/*")
     s.require_path  = 'lib'
 end
